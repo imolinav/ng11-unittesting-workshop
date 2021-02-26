@@ -13,4 +13,8 @@ describe('PowerService', () => {
   it('should be created', () => {
     expect(service).toBeTruthy();
   });
+
+  it('should work', () => {
+    expect(service.power(2, 2)).toBe(4);
+  })
 });
